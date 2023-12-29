@@ -1,6 +1,6 @@
 # WEST-SEC-Writeups
 
-学校対抗CTF大会(https://www.soumu.go.jp/soutsu/kinki/01sotsu07_01002090.html)上級者B問題のWriteup
+学校対抗CTF大会( https://www.soumu.go.jp/soutsu/kinki/01sotsu07_01002090.html )上級者B問題のWriteup
 
 ## Welcome
 

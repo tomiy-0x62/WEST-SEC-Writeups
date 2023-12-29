@@ -54,7 +54,7 @@ flagが'FLAG{wh3n_y0u_6aze_int0_4he_aby33_4he_4by3s_g4zes_1nt0_y0u}'だとわか
 straceの出力を見ると、writeシステムコールでflagが標準出力(fd = 1)に出力されているのに、標準出力にflagが表示されない。
 これは、一度表示した文字列をANSIエスケープシーケンスを使って見えなくしているのである。
 "\33[54D"が、カーソルを54左に移動、"\33[K"がカーソルの右側を消去である。
-(参考: https://qiita.com/PruneMazui/items/8a023347772620025ad6)
+(参考: https://qiita.com/PruneMazui/items/8a023347772620025ad6 )
 後で気づいたが、ファイルにリダイレクトしてもflagは見える。
 ```
 $ ./redacted > flag.txt
